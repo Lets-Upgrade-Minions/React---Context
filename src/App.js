@@ -28,10 +28,13 @@ const Smile=()=>{
             <div> 
                 <h1> Acessing The values</h1>
                  <p> Name of Cricketer: {context.data.name}</p>
+                 <p> Wife Name: {context.data.wifeName}</p>
+                 <button onClick={context.addParameter}> Click to See Wife Name</button>
                  <p> He is from : {context.data.country}</p>
                  <p> His Highestet score is : {context.data.highestScore}</p>
                  <button onClick={context.updateHighestScore}> Update High Score</button>
                  <p> Number of Matches: {context.data.matches}</p>
+                 
             </div>
 
 

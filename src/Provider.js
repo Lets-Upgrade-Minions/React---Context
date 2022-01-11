@@ -15,7 +15,8 @@ const Provider = (props)=>{
       value ={
           {
               data: cricketer,
-              updateHighestScore: () =>{setCricketer({...cricketer, highestScore: 180})}
+              updateHighestScore: () =>{setCricketer({...cricketer, highestScore: 180})},
+              addParameter: () =>{setCricketer({...cricketer, wifeName: "Anushka Sharma"})}
           }
       } 
      > 
